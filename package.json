@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "My lab work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anastasiiiii/Lab5_backEnd.git"
+  },
+  "author": "Anastasiia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anastasiiiii/Lab5_backEnd/issues"
+  },
+  "homepage": "https://github.com/Anastasiiiii/Lab5_backEnd#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
