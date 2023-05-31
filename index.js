@@ -6,7 +6,6 @@ const app = express();
 app.set('view engine', 'hbs');
 app.set('views', './views');
 
-const products = ['Apple', 'Pen', 'Computer']
 
 const port = 3000;
 
@@ -32,46 +31,6 @@ app.get('/weather.css', (req, res) => {
 
 
 //Weather-info
-/*
-app.get('/weather/Zhytomyr', (req, res) => {
-    res.render('weather.hbs', {
-        title: 'Zhytomyr weather',
-        message: 'Погода в місті Житомир',
-        pressure: '764',
-        humidity: '46',
-        temperature: '16',
-    });
-});
-
-app.get('/weather/Kyiv', (req, res) => {
-    res.render('weather.hbs', {
-        title: 'Kyiv weather',
-        message: 'Погода в місті Київ',
-        pressure: '764',
-        humidity: '39',
-        temperature: '17',
-    });
-});
-
-app.get('/weather/Poltava', (req, res) => {
-    res.render('weather.hbs', {
-        title: 'Poltava weather',
-        message: 'Погода в місті Полтава',
-        pressure: '769',
-        humidity: '51',
-        temperature: '17',
-    });
-});
-
-app.get('/weather/Sumy', (req, res) => {
-    res.render('weather.hbs', {
-        title: 'Sumy weather',
-        message: 'Погода в місті Суми',
-        pressure: '767',
-        humidity: '43',
-        temperature: '15',
-    });
-});*/
 app.get('/weather/Zhytomyr', (req, res) => {
     fs.readFile('weather_info.json', 'utf8', (err, data) => {
         if (err) {
@@ -148,15 +107,6 @@ app.get('/weather/Sumy', (req, res) => {
         });
     });
 });
-/*
-app.get('/example', (req, res) => {
-    const example = {
-        title: 'Products',
-        message: 'Products List',
-        products: products
-    };
-    res.render('example.hbs', {example})
-})
-*/
+
 
 
