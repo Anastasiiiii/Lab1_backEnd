@@ -1,0 +1,30 @@
+[
+{
+    "title": "Zhytomyr weather",
+    "message": "Погода в місті Житомир",
+    "pressure": "764",
+    "humidity": "46",
+    "temperature": "16"   
+},
+{
+    "title": "Kyiv weather",
+    "message": "Погода в місті Київ",
+    "pressure": "764",
+    "humidity": "39",
+    "temperature": "17"   
+},
+{
+    "title": "Poltava weather",
+    "message": "Погода в місті Полтава",
+    "pressure": "769",
+    "humidity": "51",
+    "temperature": "17"   
+},
+{
+    "title": "Sumy weather",
+    "message": "Погода в місті Суми",
+    "pressure": "767",
+    "humidity": "43",
+    "temperature": "15"   
+}
+]

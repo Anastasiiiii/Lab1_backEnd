@@ -4,13 +4,42 @@
     <link rel="stylesheet" href="weather.css">
 </head>
 <body>  
-    <div class="color">
-          <ul class="menu">
-            <li><a href="#" class="active">WeatherInfo</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Weather</a></li>
-          </ul>
-    </div>
-
-    <script src = "index.js"></script>
+  <nav class="menu">
+    <a href="/weather" class="active">WeatherInfo</a>
+    <a href="#">Home</a>
+    <a href="#">Weather</a>
+</nav>
+<div>
+<table class="cities">
+  <tr><td>Житомир</td></tr>
+  <tr><td>Київ</td></tr>
+  <tr><td>Полтава</td></tr>
+  <tr><td>Суми</td></tr>
+</table>
+</div>
+<div class = "weather_info">
+   <div>
+    <h2 class = "header">Погода в місті Житомир</h2>
+  </div>
+  <div>
+    <img class = "icon" src = "https://cdn-icons-png.flaticon.com/512/7084/7084486.png">
+  </div>
+  <div>
+    <table class = "weather_table">
+      <tr>
+        <td>Тиск</td>
+        <td>1026</td>
+      </tr>
+      <tr>
+        <td>Вологість</td>
+        <td>36</td>
+      </tr>
+      <tr>
+        <td>Температура</td>
+        <td>24</td>
+      </tr>
+    </table>
+  </div>
+</div>
+<script src = "index.js"></script>
 </body>

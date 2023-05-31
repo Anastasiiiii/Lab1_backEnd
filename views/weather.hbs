@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="/weather.css">
+    </head>
+    <body>
+        <nav class="menu">
+        <a href="#" class="active">WeatherInfo</a>
+        <a href="/">Home</a>
+        <a href="#">Weather</a>
+        </nav>
+        <div>
+        <table class="cities">
+            <tr><td><a href = "/weather/Zhytomyr">Житомир</a></td></tr>
+            <tr><td><a href = "/weather/Kyiv">Київ</a></td></tr>
+            <tr><td><a href = "/weather/Poltava">Полтава</a></td></tr>
+            <tr><td><a href = "/weather/Sumy">Суми</a></td></tr>
+        </table>
+        </div>
+        <div class = "weather_info">
+            <div>
+                <h2 class = "header">{{message}}</h2>
+            </div>
+            <div>
+                <img class = "icon" src = "https://cdn-icons-png.flaticon.com/512/7084/7084486.png">
+            </div>
+            <div>
+            <table class = "weather_table">
+                 <tr>
+                    <td>Тиск</td>
+                    <td>{{pressure}}</td>
+                 </tr>
+                 <tr>
+                     <td>Вологість</td>
+                     <td>{{humidity}}</td>
+                 </tr>
+                  <tr>
+                      <td>Температура</td>
+                       <td>{{temperature}}</td>
+                  </tr>
+               </table>
+            </div>
+        </div>
+    </body>
+</html>

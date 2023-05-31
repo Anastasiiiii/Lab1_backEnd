@@ -1,17 +1,59 @@
 
-.color {
-    background-color: blue;
+.menu {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    background-color: #dddddd;
+    width: 45%;
 }
 
-li {
-    float: left;
-    display:block;
+.menu a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
 }
-a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-  }
-ul { 
-    list-style: none;
+
+.cities {
+    border: solid black 1px;
+    border-collapse: collapse;
+    margin-left: 30%;
+    margin-top: 10%;
+    width: 15%;
+    padding: 20px;
+}
+.cities tr {
+   border: solid black 1px;
+}
+.cities td {
+    padding: 15px;
+}
+.weather_info {
+    border: solid black 1px;
+    width: 28%;
+    height: 300px;
+    margin-left: 47%;
+    margin-top: -13%;
+}
+.header {
+    margin-left: 5%;
+}
+.icon {
+    width: 20%;
+    height: 20%;
+    margin: 3% 40%;
+}
+.weather_table {
+    border: solid black 1px;
+    border-collapse: collapse;
+    margin: 3% 10%;
+}
+.weather_table tr {
+    border: solid black 1px;
+}
+.weather_table td {
+    border: solid black 1px;
+    width: 3%;
+    padding: 5px;
 }
