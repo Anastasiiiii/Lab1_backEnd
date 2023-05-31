@@ -1,0 +1,17 @@
+
+.color {
+    background-color: blue;
+}
+
+li {
+    float: left;
+    display:block;
+}
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+ul { 
+    list-style: none;
+}

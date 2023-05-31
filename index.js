@@ -9,9 +9,9 @@ app.listen(port, () => {
 })
 
 app.get('/', (req, res) => {
-    res.send('Main page');
+    res.sendFile(__dirname + '/index.html');
 })
 
-app.get('/login', (req, res) => {
-    res.send('Login page');
+app.get('/style.css', (req, res) => {
+    res.sendFile(__dirname + '/style.css');
 })
